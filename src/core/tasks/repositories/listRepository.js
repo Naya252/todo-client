@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiRoute = "/api/lists/";
+const apiRoute = "https://todo-api-86om.onrender.com/api/lists/";
 
 export async function getAllToDoLists() {
   return await axios
